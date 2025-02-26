@@ -25,6 +25,7 @@ This implementation finds equivalent states in a Deterministic Finite Automaton 
    - This process repeats until the partitions no longer change.  
 
    **Extraction of Equivalent States:**  
+
   At the end of the partitioning process, states that remain in the same partition are considered equivalent.  
     
   The algorithm outputs these pairs of equivalent states.  
