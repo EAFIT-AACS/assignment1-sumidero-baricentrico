@@ -16,14 +16,15 @@ To run the code, you must create or download a text file containing DFA examples
 ## **Algorithm Explanation:**  
 This implementation finds equivalent states in a Deterministic Finite Automaton (DFA) using partition refinement:  
 
-1. **Partition Initialization:** States are divided into two groups: final states and non-final states.  
+   **Partition Initialization:** States are divided into two groups: final states and non-final states.  
 
-2. **Iterative Partition Refinement:**  
+   ## **Iterative Partition Refinement:**  
    - Each state is assigned a signature based on its transitions and which partition those transitions lead to.  
    - States with the same transition signatures remain in the same partition.  
    - If a state has transitions to different partitions compared to another state in the same partition, a new partition is created.  
    - This process repeats until the partitions no longer change.  
 
-3. **Extraction of Equivalent States:**  
-   - At the end of the partitioning process, states that remain in the same partition are considered equivalent.  
-   - The algorithm outputs these pairs of equivalent states.  
+   **Extraction of Equivalent States:**  
+    At the end of the partitioning process, states that remain in the same partition are considered equivalent.  
+    
+    The algorithm outputs these pairs of equivalent states.  
