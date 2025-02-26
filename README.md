@@ -1,1 +1,12 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/Uzapeobl)
+Integrantes:
+
+- David Alejandro Gutiérrez Leal
+- Ginna Alejandra Valencia Macuace
+- Kadiha Muhamad Orta
+- Código de clase: 7308
+  
+-Sistema Operativo: Windows 10
+-Lenguaje de programación utilizado: Python 3.12
+-Herramientas: PyCharm 2024.2.4
+
+-Instrucciones para la Ejecución
